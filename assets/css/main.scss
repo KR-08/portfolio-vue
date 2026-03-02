@@ -1127,22 +1127,27 @@ footer {
     //left: 0;
     //right: auto;
     //bottom: 0;
-    top: 0;
+    //top: 50%;
     
     //margin: unset !important;
-    display: block;
 
     ul {
       display: flex;
-      align-items: center;
+      align-items:start;
       justify-content: space-between;
       flex-direction: column;
 
       li {
-        margin: 0 !important;
+        // margin: 0 !important;
         width: unset !important;
       }
     }
+
+
+    .icon {
+        background-color: $secondary; // Green background
+        color: $white; // White icon
+      }
 
     & .router-link-active {
       .icon {
@@ -1156,20 +1161,7 @@ footer {
       }
     }
 
-    &.active a,
-    a:hover {
-      background: none;
 
-      .icon {
-        background-color: $secondary; // Green background
-        color: $white; // White icon
-      }
-
-      h4 {
-        color: $secondary; // Green text
-        display: block;
-      }
-    }
   }
 
   .flex {
