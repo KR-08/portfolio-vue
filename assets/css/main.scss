@@ -959,7 +959,8 @@ footer {
 }
 
 @import "modal";
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) 
+{
 
   .pers-info,
   .exp,
@@ -1123,27 +1124,19 @@ footer {
 
   nav {
     height: 60px;
-    left: 0;
-    right: auto;
-    bottom: 0;
-    top: auto;
-    transform: none;
-    width: 100%;
-    max-width: unset;
-    margin: unset !important;
+    //left: 0;
+    //right: auto;
+    //bottom: 0;
+    top: 0;
+    
+    //margin: unset !important;
     display: block;
-    padding: 0 0.5rem;
-    z-index: 10;
-    background: #fff;
-    box-shadow: 0 0 47px #dedede;
-    // -ms-transform: translateY(80%);
-    // transform: translateY(80%);
 
     ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-direction: row;
+      flex-direction: column;
 
       li {
         margin: 0 !important;
@@ -1163,6 +1156,20 @@ footer {
       }
     }
 
+    &.active a,
+    a:hover {
+      background: none;
+
+      .icon {
+        background-color: $secondary; // Green background
+        color: $white; // White icon
+      }
+
+      h4 {
+        color: $secondary; // Green text
+        display: block;
+      }
+    }
   }
 
   .flex {
