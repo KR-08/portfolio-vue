@@ -1,0 +1,36 @@
+[33mcommit a73fc13bbb5db356e7a9457309ff6adac1099910[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kavinraj <kavinrajmail007@gmail.com>
+Date:   Mon Mar 2 18:44:47 2026 +0530
+
+    Updated the CSS for mobile screens ( below 991 px ) .
+
+[33mcommit 2fc36d82d2b1120316d0a2b7d40f0c9707361d65[m
+Merge: be961c9 5919b70
+Author: Kavinraj <kavinrajmail007@gmail.com>
+Date:   Mon Mar 2 17:55:50 2026 +0530
+
+    Merge branch 'main' of https://github.com/KR-08/portfolio-vue
+
+[33mcommit be961c983501c00fe0b3f913ecbb2f7c961f10f0[m
+Author: Kavinraj <kavinrajmail007@gmail.com>
+Date:   Mon Mar 2 17:54:37 2026 +0530
+
+    Made changes in CSS for mobile screens ( below 991 px)
+
+[33mcommit 5919b7057e436b9d7db3f6e3f7d9cc49a7cd4596[m
+Author: KR-08 <kavinrajmail007@gmail.com>
+Date:   Sat Feb 28 16:09:44 2026 +0530
+
+    Update README.md
+
+[33mcommit 59d3a125394559427b214cc392d962b866573e2e[m
+Author: KR-08 <kavinrajmail007@gmail.com>
+Date:   Sat Feb 28 16:08:20 2026 +0530
+
+    Update README.md
+
+[33mcommit 57238c281310ab23ca9753e64aa78ae53f76f807[m
+Author: Kavinraj <kavinrajmail007@gmail.com>
+Date:   Sat Feb 28 15:44:28 2026 +0530
+
+    initial commit

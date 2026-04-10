@@ -35,7 +35,6 @@
 
 <script setup>
 import { useRouter } from 'vue-router';
-import myPortrait from '~/assets/my-image.jpeg'
 
 const router = useRouter();
 

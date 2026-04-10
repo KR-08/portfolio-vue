@@ -323,22 +323,18 @@ main {
         line-height: 35px;
       }
 
-      // position: absolute;
-      // top: 50%;
-      // -ms-transform: translateY(-50%);
-      // transform: translateY(-50%);
     }
 
     .portrait {
       height: 400px;
       width: 400px;
-      right: 80px;
+      right:80px;
       position:fixed;
       border-radius: 50%;
       background-size:cover;
       background-repeat: no-repeat;
       background-position:top;
-      background-image: url("../my-image.jpeg");
+      background-image: url("../my-image-2.jpg");
     }
   }
 }
@@ -1177,7 +1173,7 @@ footer {
 
   .content {
     width: 100%;
-    justify-content: unset;
+    justify-content:center;
     padding: 1rem 0.5rem;
     min-height: calc(100vh - 60px);
 
@@ -1191,7 +1187,6 @@ footer {
       padding: 0 !important;
 
       .details {
-        max-width: unset !important;
 
         h1 {
           font-size: 29px !important;
@@ -1203,6 +1198,11 @@ footer {
 
         .button {
           align-self: center !important;
+        }
+
+        p{
+          height: 100vw;
+          width: 100%;
         }
       }
 
